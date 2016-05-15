@@ -6,7 +6,6 @@ use Module::Build;
 
   Module::Build->new(
       module_name        => 'PreJSON::Parser',
-      # test_file_exts     => [qw(.t)],
       build_requires     => {
           'Test::Simple'  => '0',
       },
